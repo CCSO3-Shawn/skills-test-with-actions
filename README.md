@@ -19,7 +19,9 @@ _Create workflows that enable you to use Continuous Integration (CI) for your pr
   Define terms and link to docs.github.com.
 -->
 
+
 ## Step 5: Add branch protections
+
 
 _Great job uploading test reports! :partying_face:_
 
@@ -54,10 +56,4 @@ Get help: [Post in our discussion board](https://github.com/skills/.github/discu
 &copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
-       - name: Update to step 5
-        uses: skills/action-update-step@v2
-         with:
-           token: ${{ secrets.GITHUB_TOKEN }}
-           from_step: 4
-           to_step: 5
-           branch_name: ci
+
